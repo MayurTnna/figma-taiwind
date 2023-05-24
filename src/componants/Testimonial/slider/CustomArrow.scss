@@ -1,0 +1,30 @@
+.slick-prev {
+    width: 79px!important;
+    left: -40px;
+    height: 100px!important;
+    z-index: 99999;
+    @media screen and (max-width: 768px) {
+      left: 33px;
+    }
+    @media screen and (max-width: 420px) {
+      left: -20px;
+    }
+  }
+  .slick-next {
+    height: 100px;
+    z-index: 99999;
+    width: 79px;
+    right: 24px;
+    @media screen and (max-width: 768px) {
+      right: 33px;
+    }
+    @media screen and (max-width: 420px) {
+      right: -20px;
+    }
+  }
+  .slick-slide {
+    
+      display: flex !important;
+      justify-content: center !important    ;
+    
+  }

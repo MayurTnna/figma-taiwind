@@ -1,0 +1,8 @@
+@import "./../fonts/gilroy-bold-cufonfonts-webfont/style.scss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+li p{
+    margin: 0!important;
+}

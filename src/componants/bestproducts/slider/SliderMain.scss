@@ -1,0 +1,28 @@
+.slider-container-product {
+    .main-slider-container {
+      margin-top: 130px;
+    }
+    .slick-prev {
+      width: 79px;
+      left: -32px;
+      height: 100px;
+      z-index: 99999;
+      @media screen and (max-width: 768px) {
+        left: 6px !important;
+      }
+    }
+    .slick-next {
+      height: 100px;
+      z-index: 99999;
+      width: 79px;
+      right: -32px;
+      @media screen and (max-width: 768px) {
+        right: 6px !important;
+      }
+    }
+    .slick-slide {
+      display: flex;
+      justify-content: center;
+      
+    }
+  }

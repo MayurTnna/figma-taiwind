@@ -1,0 +1,12 @@
+.hero-main-container {
+  background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0) 86.13%,
+      #ffffff 100%
+    ),
+    url("../../assets//images/hero-main.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1084px;
+  background-position: center;
+}

@@ -1,25 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "../src/assets/scss/App.scss";
 
-function App() {
+import HeroSection from "./componants/Hero/HeroSection";
+import ChooseUs from "./componants/chooseus/ChooseUs";
+import ProductSection from "./componants/bestproducts/ProductSection";
+import Experience from "./componants/experience/Experience";
+import MaterialSection from "./componants/material/MaterialSection";
+import TestimonialSection from "./componants/Testimonial/TestimonialSection";
+import CardContainer from "./componants/Testimonial/CardContainer/CardContainer";
+import SliderMain from "./componants/Testimonial/slider/SliderMain";
+import Footer from "./componants/common/Footer";
+
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <HeroSection/>
+      <ChooseUs/>
+      <ProductSection/>
+      <Experience/>
+      <MaterialSection/>
+      <TestimonialSection/>
+     <SliderMain/>
+     <Footer/>
+    
+    </>
   );
-}
+};
 
 export default App;

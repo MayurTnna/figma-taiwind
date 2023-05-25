@@ -3,9 +3,11 @@ import star from "../../../assets/images/star.svg";
 import chair1 from "../../../assets/images/chair1.svg";
 import plus from "../../../assets/images/plus.svg";
 
+
 const ProductSlider = () => {
   return (
     <>
+ 
       <div className=" w-[100%] h-[492px]">
         <div className="bg-[#FAFAFA] w-[268.09px] h-[239.15px] relative">
           <img

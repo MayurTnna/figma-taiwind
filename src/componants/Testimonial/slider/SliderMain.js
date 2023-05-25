@@ -45,6 +45,15 @@ const SliderMain = () => {
           infinite: true,
         },
       },
+      {
+        breakpoint: 400,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          slidesToScroll: 1,
+          infinite: true,
+        },
+      },
     ],
   };
   return (

@@ -33,8 +33,8 @@ const MaterialSection = () => {
               </div>
             </div>
           </div>
-          <div className="second-col">
-            <img src={leftmaingroup} alt="" />
+          <div className="second-col ">
+            <img src={leftmaingroup} className="float-right" alt="" />
           </div>
         </div>
       </div>

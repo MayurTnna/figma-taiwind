@@ -2,13 +2,14 @@ import React from "react";
 import logo from "../../assets/images/Panto.svg";
 import bag from "../../assets/images/Bag.svg";
 import egg from "../../assets/images/egg-zero.svg";
+import dropdown from "../../assets/images/dropdown.svg";
 
 const Header = () => {
   return (
     <>
       <div className="pt-[40px]">
         <nav className="bg-transparent  w-full z-20 top-0 left-0 ">
-          <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+          <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto ">
             <a href="#df" className="flex items-center">
               <img src={logo} className="h-8 mr-3" alt="Flowbite Logo" />
             </a>
@@ -55,31 +56,19 @@ const Header = () => {
               className="items-center  justify-between hidden w-full md:flex md:w-auto md:order-1"
               id="navbar-sticky"
             >
-              <ul className="flex bg-transparent flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0  dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700 border-none">
+              <ul className="flex bg-transparent flex-col  max-[768px] :p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0  dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700 border-none">
                 <button
                   id="dropdownNavbarLink"
                   data-dropdown-toggle="dropdownNavbar"
-                  className="flex items-center justify-between w-full py-2 pl-3 pr-4  rounded  font-Gilroy-Medium text-[18px] text-white md:hover:bg-transparent md:border-0 md:p-0 md:w-auto dark:text-white  dark:focus:text-white dark:hover:bg-gray-700 md:dark:hover:bg-transparent"
+                  className="flex items-center  w-full py-2 pl-3 pr-4  rounded  font-Gilroy-Medium text-[18px] text-white md:hover:bg-transparent md:border-0 md:p-0 md:w-auto dark:text-white  dark:focus:text-white dark:hover:bg-gray-700 md:dark:hover:bg-transparent max-[768px]:pl-0"
                 >
-                  Favourite{" "}
-                  <svg
-                    class="w-5 h-5 ml-1"
-                    aria-hidden="true"
-                    fill="currentColor"
-                    viewBox="0 0 20 20"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      fill-rule="evenodd"
-                      d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
-                      clip-rule="evenodd"
-                    ></path>
-                  </svg>
+                  Favourite
+                  <img src={dropdown} alt="dropdown" className="ml-2" />
                 </button>
                 <li className="">
                   <a
                     href="#dddedewd"
-                    className="block py-2 pl-3 pr-4 text-white rounded md:hover:bg-transparent  md:p-0  dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700 font-Gilroy-Medium text-[18px] ml-[65px] max-[768px]:ml-0"
+                    className="block py-2 pl-3 pr-4 text-white rounded md:hover:bg-transparent  max-[768px]:pl-0  dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700 font-Gilroy-Medium text-[18px] ml-[65px] max-[768px]:ml-0"
                   >
                     Shop
                   </a>
@@ -87,7 +76,7 @@ const Header = () => {
                 <li>
                   <a
                     href="#tyuyuu"
-                    className="block py-2 pl-3 pr-4 text-gray-900 rounded md:hover:bg-transparent  md:p-0 dark:text-white  md:dark:hover:bg-transparent dark:border-gray-700  font-Gilroy-Medium text-[18px] text-white ml-[62px] max-[768px]:ml-0 "
+                    className="block py-2 pl-3 pr-4  rounded max-[768px]:pl-0md:hover:bg-transparent  md:p-0 dark:text-white  md:dark:hover:bg-transparent dark:border-gray-700  font-Gilroy-Medium text-[18px] text-white ml-[62px] max-[768px]:ml-0 max-[768px]:pl-0 "
                   >
                     About us
                   </a>
@@ -95,7 +84,7 @@ const Header = () => {
                 <li>
                   <a
                     href="#ert5y"
-                    className="block py-2 pl-3 pr-4 text-gray-900 rounded md:hover:bg-transparent  md:p-0  dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700   font-Gilroy-Medium text-[18px] text-white ml-[64px] max-[768px]:ml-0"
+                    className="block py-2 pl-3 pr-4  rounded md:hover:bg-transparent  md:p-0  dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700   font-Gilroy-Medium text-[18px] text-white ml-[64px] max-[768px]:ml-0  max-[768px]:pl-0"
                   >
                     Contact
                   </a>

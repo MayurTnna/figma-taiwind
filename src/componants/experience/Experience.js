@@ -1,5 +1,6 @@
 import React from "react";
 import yellowArrow from "../../assets/images/yellow-arrow.svg";
+import experienceLeft from "../../assets/images/mainexperiencegot.svg"
 
 const Experience = () => {
   return (
@@ -7,7 +8,9 @@ const Experience = () => {
       <div className="pt-[240px] max-[768px]:pt-[70px]">
         <div className="grid xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 gap-x-[20px]">
           <div className="first-col">
-            <div className="bg-[url('/src/assets/images/mainexperiencegot.svg')]  max-w-[629px] min-h-[445px] bg-no-repeat relative max-[992px]:w-auto "></div>
+            <div className="  max-w-[629px] min-h-[445px] bg-no-repeat relative max-[992px]:w-auto ">
+              <img src={experienceLeft} alt="expLeft"/>
+            </div>
           </div>
           <div className="second-col">
             <div className=" pt-[83px] max-[992px]:m-auto max-[992px]:text-center max-[768px]:m-auto max-[768px]:text-center">

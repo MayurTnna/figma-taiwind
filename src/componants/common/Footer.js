@@ -8,8 +8,8 @@ const Footer = () => {
     <>
       <div className="pt-[240px] max-[768px]:pt-[20px]">
         <div className="bg-[#f7f7f7]">
-          <div className=" pt-[118px] pl-[118px] max-[992px]:pl-[150px] max-[992px]:mx-auto  max-[768px]:pl-0  max-[768px]:mx-auto max-[768px]:text-center">
-            <div className="grid my-4 xl:grid-cols-4 lg:grid-cols-4 md:grid-cols-2 sm:grid-cols:1  gap-x-[20px] max-[992px]:gap-y-[20px]">
+          <div className=" pt-[118px] pl-[118px] max-[992px]:pl-[150px] max-[992px]:mx-auto  max-[768px]:pl-0 max-[768px]:pt-[20px] max-[768px]:mx-auto max-[768px]:text-center">
+            <div className="grid my-4 lg:grid-cols-4 md:grid-cols-2 sm:grid-cols:1  gap-x-[20px] max-[992px]:gap-y-[20px]">
               <div className="first-column">
                 <div className="text-[28px] leading-[33px] uppercase text-black font-Gilroy-Bold tracking-[0.01em]">
                   Panto
@@ -55,7 +55,7 @@ const Footer = () => {
                   <p>
                     <img src={facebook} alt="fb" />
                   </p>
-                  &nbsp; <p>Facebook</p>
+                  &nbsp; <p className="ml-2">Facebook</p>
                 </div>
                 <div className="campaigns flex items-center pt-[16px] max-[768px]:justify-center ">
                   <p>
@@ -67,7 +67,23 @@ const Footer = () => {
                   <p>
                     <img src={instagram} alt="fb" />
                   </p>
-                  &nbsp; <p>instagram</p>
+                  &nbsp; <p className="ml-1">instagram</p>
+                </div>
+              </div>
+            </div>
+            <div className="pt-[130px] flex justify-between max-[768px]:pt-[10px] max-[768px]:text-center max-[768px]:flex-col ">
+              <div
+                className="font-DM-Sans not-italic text-[15px] leading-[20px]
+              tracking-[-0.204545] text-[#1e2833] opacity-[0.5] mix-blend-normal max-[768px]:mb-[10px] "
+              >
+                Copyright © 2021
+              </div>
+              <div className="flex pr-[188px] max-[768px]:text-center  max-[768px]:flex-col  max-[768px]:p-0  max-[768px]:mb-[10px] ">
+                <div className="font-Gilroy-Medium text-[15px] leading-[160%] text-black opacity-[0.8] max-[768px]:mb-[10px] mr-[40px] max-[768px]:mr-0">
+                  Terms & Conditions
+                </div>
+                <div className="font-Gilroy-Medium text-[15px] leading-[160%] text-black opacity-[0.8] ">
+                  Privacy Policy
                 </div>
               </div>
             </div>

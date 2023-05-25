@@ -1,6 +1,6 @@
 .slick-prev {
     width: 79px!important;
-    left: -40px;
+    left: -13px;
     height: 100px!important;
     z-index: 99999;
     @media screen and (max-width: 768px) {
@@ -9,17 +9,20 @@
     @media screen and (max-width: 420px) {
       left: -20px;
     }
+    @media screen and (max-width: 360px) {
+      left: -2px;
+    }
   }
   .slick-next {
     height: 100px;
     z-index: 99999;
     width: 79px;
-    right: 24px;
+    right: -10px;
     @media screen and (max-width: 768px) {
       right: 33px;
     }
     @media screen and (max-width: 420px) {
-      right: -20px;
+      right: 11px;
     }
   }
   .slick-slide {

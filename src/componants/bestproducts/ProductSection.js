@@ -1,4 +1,5 @@
 import React from "react";
+import yellowArrow from "../../assets/images/yellow-arrow.svg";
 
 import SliderMain from "./slider/SliderMain";
 
@@ -11,7 +12,7 @@ const ProductSection = () => {
         </div>
         <div className="text-center pt-[32px]">
           <div
-            className="inline-flex justify-between  bg-[#eeeeee] w-[348px] max-[768px]:w-[100%] h-auto rounded-[44px]  "
+            className="inline-flex justify-between  bg-[#eeeeee] w-[348px] max-[768px]:w-[100%] h-auto rounded-[44px] p-[4px] "
             role="group"
           >
             <button
@@ -41,7 +42,18 @@ const ProductSection = () => {
             </button>
           </div>
         </div>
-        <SliderMain/>
+        <SliderMain />
+
+        <div className="flex justify-center max-[998px]:m-auto pt-[14px] pb-[50px] max-[992px]:justify-center">
+          <p className="text-orange font-Gilroy-Medium text-[14px]leading-[185]">
+            More Info
+          </p>
+          <img
+            src={yellowArrow}
+            alt="yellowArrow"
+            className="yellowArrow  pr-o pb-0 pl-[13px] max-[768px]:pl-0"
+          />
+        </div>
       </div>
     </>
   );

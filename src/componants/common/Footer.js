@@ -9,7 +9,7 @@ const Footer = () => {
       <div className="pt-[240px] max-[768px]:pt-[20px]">
         <div className="bg-[#f7f7f7]">
           <div className=" pt-[118px] pl-[118px] max-[992px]:pl-[150px] max-[992px]:mx-auto  max-[768px]:pl-0  max-[768px]:mx-auto max-[768px]:text-center">
-            <div className="grid my-4 xl:grid-cols-4 lg:grid-cols-4 md:grid-cols-2 sm:grid-cols:1">
+            <div className="grid my-4 xl:grid-cols-4 lg:grid-cols-4 md:grid-cols-2 sm:grid-cols:1  gap-x-[20px] max-[992px]:gap-y-[20px]">
               <div className="first-column">
                 <div className="text-[28px] leading-[33px] uppercase text-black font-Gilroy-Bold tracking-[0.01em]">
                   Panto
@@ -51,17 +51,23 @@ const Footer = () => {
                 <div className=" font-DM-Sans not-italic font-[400] text-[17px] leading-[22px] tracking-[-0.231818px] text-footer-text-color ">
                   Follow us
                 </div>
-                <div className="email">
-                  <img src={facebook} alt="fb" />
-                  &nbsp; Facebook
+                <div className="email flex items-center pt-[20px] max-[768px]:justify-center ">
+                  <p>
+                    <img src={facebook} alt="fb" />
+                  </p>
+                  &nbsp; <p>Facebook</p>
                 </div>
-                <div className="campaigns">
-                  <img src={twitter} alt="fb" />
-                  &nbsp; Twitter
+                <div className="campaigns flex items-center pt-[16px] max-[768px]:justify-center ">
+                  <p>
+                    <img src={twitter} alt="fb" />
+                  </p>
+                  &nbsp; <p>Twitter</p>
                 </div>
-                <div className="binding">
-                  <img src={instagram} alt="fb" />
-                  &nbsp; instagram
+                <div className="binding flex items-center pt-[16px] max-[768px]:justify-center ">
+                  <p>
+                    <img src={instagram} alt="fb" />
+                  </p>
+                  &nbsp; <p>instagram</p>
                 </div>
               </div>
             </div>

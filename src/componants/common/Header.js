@@ -13,7 +13,7 @@ const Header = () => {
             <a href="#df" className="flex items-center">
               <img src={logo} className="h-8 mr-3" alt="Flowbite Logo" />
             </a>
-            <div className="flex md:order-2 pb-[20px]">
+            <div className="flex md:order-2 ">
               <button
                 type="button"
                 className="text-white  focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 text-center mr-3 md:mr-0  "

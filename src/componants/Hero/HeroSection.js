@@ -10,7 +10,7 @@ const HeroSection = () => {
         <Header />
         <div className=" pt-[92px] pr-[289px] pb-[0px] pl-[289px] text-center max-[992px]:px-0 max-[992px]:container  max-[992px]:mx-auto">
           <p className="text-[80px] leading-[104px] max-[1200px]:text-[60px] max-[1200px]:leading-[80px]  max-[576px]:leading-[60px] max-[420px]:leading-[40px] first-letter:max-[992px]:text-[50px] max-[768px]:text-[40px] max-[576px]:text-[30px]  max-[420px]:text-[25px]   tracking-[-0.01em]  capitalize text-white font-Gilroy-Bold ">
-            Make your interior more minimalistic & modern
+            make your interior more minimalistic & modern
           </p>
         </div>
         <div className="pt-[14px] pr-[416px] pl-[418px] pb-[0px] text-center max-[992px]:px-0 max-[992px]:container  max-[992px]:mx-auto">

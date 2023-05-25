@@ -8,6 +8,7 @@ import ProductSlider from "../productslider/ProductSlider";
 import CustomArrow from "./CustomArrow";
 import rightimage from "../../../assets/images/rightarrow.svg";
 import leftimage from "../../../assets/images/leftarrow.svg";
+import { chairData } from "../../../assets/chairproducts/ChairItems";
 
 const SliderMain = () => {
   const settings = {
@@ -59,7 +60,16 @@ const SliderMain = () => {
     <>
       <div className="slider-container-product container mx-auto">
         <Slider {...settings}>
-          <div className="main-slider-container">
+         
+            {chairData &&
+              chairData.map((item) => ( <div className="main-slider-container">
+                <ProductSlider
+                  item={item}
+                  key={item.id}
+                />  </div>
+              ))}
+        
+          {/* <div className="main-slider-container">
             <ProductSlider />
           </div>
           <div className="main-slider-container">
@@ -76,10 +86,7 @@ const SliderMain = () => {
           </div>
           <div className="main-slider-container">
             <ProductSlider />
-          </div>
-          <div className="main-slider-container">
-            <ProductSlider />
-          </div>
+          </div> */}
         </Slider>
       </div>
     </>

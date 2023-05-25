@@ -4,9 +4,10 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import CustomArrow from "./CustomArrow";
-import rightimage from "../../../assets/images/rightarrow.svg"
-import leftimage from "../../../assets/images/leftarrow.svg"
+import rightimage from "../../../assets/images/rightarrow.svg";
+import leftimage from "../../../assets/images/leftarrow.svg";
 import CardContainer from "../CardContainer/CardContainer";
+import { clientDetails } from "../../../assets/clientdetails/Details";
 
 const SliderMain = () => {
   const settings = {
@@ -61,24 +62,27 @@ const SliderMain = () => {
       <div className="container mx-auto">
         <div className="slider-container pt-[60px] ">
           <Slider {...settings}>
-            <div className="main-slider-container">
-             <CardContainer/>
+            {clientDetails &&
+              clientDetails.map((client) => (
+                <div className="main-slider-container">
+                  <CardContainer key={client.id} client={client} />
+                </div>
+              ))}
+            {/* <div className="main-slider-container">
+              <CardContainer />
             </div>
             <div className="main-slider-container">
-            <CardContainer/>
+              <CardContainer />
             </div>
             <div className="main-slider-container">
-            <CardContainer/>
+              <CardContainer />
             </div>
             <div className="main-slider-container">
-            <CardContainer/>
+              <CardContainer />
             </div>
             <div className="main-slider-container">
-            <CardContainer/>
-            </div>
-            <div className="main-slider-container">
-            <CardContainer/>
-            </div>
+              <CardContainer />
+            </div> */}
           </Slider>
         </div>
       </div>

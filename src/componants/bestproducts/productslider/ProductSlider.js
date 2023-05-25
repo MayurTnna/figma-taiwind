@@ -1,17 +1,16 @@
 import React from "react";
 import star from "../../../assets/images/star.svg";
-import chair1 from "../../../assets/images/chair1.svg";
 import plus from "../../../assets/images/plus.svg";
 
 
-const ProductSlider = () => {
+const ProductSlider = ({item}) => {
   return (
     <>
  
       <div className=" w-[100%] h-[492px]">
         <div className="bg-[#FAFAFA] w-[268.09px] h-[239.15px] relative">
           <img
-            src={chair1}
+            src={item.imgURL}
             alt="chair1"
             className="absolute left-[25px] top-[-62px] bottom-[33px]"
           />
@@ -22,7 +21,7 @@ const ProductSlider = () => {
               Chair
             </div>
             <div className=" text-[21.3251px] leading-[26px] pt-[8px] text-[#0d1b39] font-[600] not-italic font-Inter">
-              Sakaris Armchair
+             {item.title}
             </div>
             <div className="pt-[8px] flex">
               <img src={star} alt="star" />
@@ -37,7 +36,7 @@ const ProductSlider = () => {
                   $
                 </span>
                 <span className="text-[21.3251px] leading-[26px] pt-[8px] text-[#0d1b39] font-[600] not-italic font-Inter">
-                  392
+                  {item.price}
                 </span>
               </div>
               <div className="pr-[22px] -mt-[10px]">

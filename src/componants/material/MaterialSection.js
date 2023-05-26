@@ -13,10 +13,10 @@ const MaterialSection = () => {
               <div className=" text-[18px] leading-[21px] font-Gilroy-Regular text-orange tracking-[0.175em] uppercase max-[992px]:mx-auto max-[992px]:text-center">
                 Materials
               </div>
-              <div className="pt-[20px] pr-[237px] max-[992px]:text-center max-[992px]:mx-auto max-[992px]:pr-0 max-[992px]:text-[30px]  text-black font-Gilroy-Bold  text-[42px] leading-[49px] max-[992px]:container">
+              <div className="pt-[20px] text-[42px] pr-[237px] max-[992px]:text-center max-[992px]:mx-auto max-[992px]:pr-0 max-[475px]:text-[32px]  text-black font-Gilroy-Bold   leading-[49px] max-[992px]:container  max-[475px]:text-[25px] max-[475px]:leading-[30px] ">
                 Very serious materials for making furniture
               </div>
-              <div className="font-Gilroy-Regular pr-[94px] text-[18px] leading-[185%] opacity-[0.8]  pt-[20px] max-[992px]:mx-auto max-[992px]:text-center max-[992px]:pr-0  max-[992px]:container ">
+              <div className="font-Gilroy-Regular pr-[94px] text-[18px] leading-[185%] opacity-[0.8]  pt-[20px] max-[992px]:mx-auto max-[992px]:text-center max-[992px]:pr-0  max-[992px]:container max-[992px]:pl-[25px] max-[992px]:pr-[25px] max-[992px]:text-[15px]">
                 Because panto was very serious about designing furniture for our
                 environment, using a very expensive and famous capital but at a
                 relatively low price

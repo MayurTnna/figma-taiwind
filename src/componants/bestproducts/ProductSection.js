@@ -7,12 +7,12 @@ const ProductSection = () => {
   return (
     <>
       <div className=" pt-[50px] bg-[#f7f7f7]">
-        <div className="main-title text-center leading-[49px] text-black text-[42px] font-Gilroy-Bold">
+        <div className="main-title text-center leading-[49px] text-black text-[42px] max-[475px]:text-[32px]  font-Gilroy-Bold">
           Best Selling Product
         </div>
         <div className="text-center pt-[32px]">
           <div
-            className="inline-flex justify-between  bg-[#eeeeee] w-[348px] max-[768px]:w-[100%] h-auto rounded-[44px] p-[4px] "
+            className="inline-flex justify-between  bg-[#eeeeee] w-[348px] max-[420px]:w-[100%]  h-auto rounded-[44px] p-[6px] hover:bg-[#eeeeee]  "
             role="group"
           >
             <button
@@ -23,7 +23,7 @@ const ProductSection = () => {
             </button>
             <button
               type="button"
-              className="px-4 py-2 text-sm font-medium  border border-gray-200  hover:bg-gray-100   dark:text-white dark:hover:text-white  dark:focus:text-white border-none text-black opacity-[0.8] text-[18px] font-Gilroy-Regular leading-[185%]"
+              className="px-4 py-2 text-sm font-medium  border border-gray-200  dark:text-white dark:hover:text-white  dark:focus:text-white border-none text-black opacity-[0.8] text-[18px] font-Gilroy-Regular leading-[185%]"
             >
               Beds
             </button>

@@ -4,7 +4,8 @@
     }
     .slick-prev {
       width: 79px;
-      left: -32px;
+      top: 333px;
+      left: -12px;
       height: 100px;
       z-index: 99999;
       @media screen and (max-width: 768px) {
@@ -13,9 +14,10 @@
     }
     .slick-next {
       height: 100px;
+      top: 333px;
       z-index: 99999;
       width: 79px;
-      right: -32px;
+      right: -12px;
       @media screen and (max-width: 768px) {
         right: 6px !important;
       }

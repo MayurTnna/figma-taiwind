@@ -9,17 +9,17 @@ const Footer = () => {
       <div className="pt-[240px] max-[768px]:pt-[20px]">
         <div className="bg-[#f7f7f7]">
           <div className=" pt-[118px] pl-[118px] max-[992px]:pl-[150px] max-[992px]:mx-auto  max-[768px]:pl-0 max-[768px]:pt-[20px] max-[768px]:mx-auto max-[768px]:text-center">
-            <div className="grid my-4 lg:grid-cols-4 md:grid-cols-2 sm:grid-cols:1  gap-x-[20px] max-[992px]:gap-y-[20px]">
-              <div className="first-column">
+            <div className="grid my-4 lg:grid-cols-5 md:grid-cols-2 sm:grid-cols:1  gap-x-[20px] max-[992px]:gap-y-[20px]">
+              <div className="first-column lg:col-span-2">
                 <div className="text-[28px] leading-[33px] uppercase text-black font-Gilroy-Bold tracking-[0.01em]">
                   Panto
                 </div>
-                <div className="pt-[29px] pr-[84px]text-[15px] leading-[160%] uppercase text-black font-Gilroy-Medium tracking-[0.01em] max-[768px]:text-[13px] max-[768px]:pr-0 ">
+                <div className="pt-[29px] pr-[152px] text-[15px] leading-[160%] uppercase text-black font-Gilroy-Medium tracking-[0.01em] max-[768px]:text-[11px] max-[768px]:pr-0 ">
                   The advantage of hiring a workspace with us is that givees you
                   comfortable service and all-around facilities.
                 </div>
               </div>
-              <div className="second-column">
+              <div className="second-column lg:col-span-1">
                 <div className=" font-DM-Sans not-italic font-[400] text-[17px] leading-[22px] tracking-[-0.231818px] text-footer-text-color ">
                   Services
                 </div>
@@ -33,7 +33,7 @@ const Footer = () => {
                   Branding
                 </div>
               </div>
-              <div className="third-column">
+              <div className="third-column lg:col-span-1">
                 <div className=" font-DM-Sans not-italic font-[400] text-[17px] leading-[22px] tracking-[-0.231818px] text-footer-text-color ">
                   Furniture
                 </div>
@@ -47,7 +47,7 @@ const Footer = () => {
                   All
                 </div>
               </div>
-              <div className="fourth-column">
+              <div className="fourth-column lg:col-span-1">
                 <div className=" font-DM-Sans not-italic font-[400] text-[17px] leading-[22px] tracking-[-0.231818px] text-footer-text-color ">
                   Follow us
                 </div>
@@ -71,7 +71,7 @@ const Footer = () => {
                 </div>
               </div>
             </div>
-            <div className="pt-[130px] flex justify-between max-[768px]:pt-[10px] max-[768px]:text-center max-[768px]:flex-col ">
+            <div className="pt-[130px] pb-[56px] flex justify-between max-[768px]:pt-[10px] max-[768px]:text-center max-[768px]:flex-col max-[768px]:pb-[20px] ">
               <div
                 className="font-DM-Sans not-italic text-[15px] leading-[20px]
               tracking-[-0.204545] text-[#1e2833] opacity-[0.5] mix-blend-normal max-[768px]:mb-[10px] "

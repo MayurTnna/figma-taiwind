@@ -8,7 +8,9 @@ const Experience = () => {
       <div className="pt-[240px] max-[768px]:pt-[70px]">
         <div className="grid xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 gap-x-[20px]">
           <div className="first-col">
-            <div className="  max-w-[629px] min-h-[445px] bg-no-repeat relative max-[992px]:w-auto max-[992px]:h-auto ">
+            <div className="  max-w-[629px] min-h-[445px] bg-no-repeat relative max-[992px]:w-auto max-[992px]:min-h-[auto]
+            
+            ">
               <img src={experienceLeft} alt="expLeft" />
             </div>
           </div>
@@ -18,10 +20,10 @@ const Experience = () => {
                 Experiences
               </div>
             </div>
-            <div className="main-subtitle text-black font-Gilroy-Bold  text-[42px] leading-[49px] pt-[20px] max-[992px]:container max-[992px]:mx-auto max-[992px]:text-center  pr-[284px] max-[992px]:pr-0">
+            <div className=" text-black font-Gilroy-Bold  text-[42px] leading-[49px] pt-[20px] max-[992px]:container max-[992px]:mx-auto max-[992px]:text-center  pr-[284px] max-[992px]:pr-0  max-[475px]:text-[25px] max-[475px]:leading-[30px]">
               we provide you the best experience
             </div>
-            <div className="font-Gilroy-Regular text-[18px] leading-[185%] opacity-[0.8] pr-[141px] pt-[20px] max-[992px]:m-auto max-[992px]:text-center max-[992px]:pr-0  max-[992px]:container max-[992px]:mx-auto">
+            <div className="font-Gilroy-Regular text-[18px] leading-[185%] opacity-[0.8] pr-[141px] pt-[20px] max-[992px]:m-auto max-[992px]:text-center   max-[992px]:pl-[25px] max-[992px]:pr-[25px] max-[992px]:text-[15px]">
               You don’t have to worry about the result because all of these
               interiors are made by people who are professionals in their fields
               with an elegant and lucurious style and with premium quality

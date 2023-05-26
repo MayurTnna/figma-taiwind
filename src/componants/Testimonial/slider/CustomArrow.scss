@@ -1,6 +1,7 @@
 .slick-prev {
     width: 79px!important;
     left: -13px;
+    top: 144px;
     height: 100px!important;
     z-index: 99999;
     @media screen and (max-width: 768px) {
@@ -17,6 +18,7 @@
     height: 100px;
     z-index: 99999;
     width: 79px;
+    top: 144px;
     right: -10px;
     @media screen and (max-width: 768px) {
       right: 33px;

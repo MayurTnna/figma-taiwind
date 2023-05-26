@@ -7,7 +7,7 @@ const ProductSection = () => {
   return (
     <>
       <div className=" pt-[50px] bg-[#f7f7f7]">
-        <div className="main-title text-center leading-[49px] text-black text-[42px] max-[475px]:text-[32px]  font-Gilroy-Bold">
+        <div className=" text-center title-main-text max-[475px]:text-[32px]  ">
           Best Selling Product
         </div>
         <div className="text-center pt-[32px]">
@@ -17,7 +17,7 @@ const ProductSection = () => {
           >
             <button
               type="button"
-              className="bg-[#ffffff] rounded-[32px] w-[84px] h-[45px] px-2 py-1 text-sm font-medium border border-gray-200  hover:bg-gray-100   dark:text-white dark:hover:text-white  dark:focus:text-white border-none text-black opacity-[0.8] text-[18px] font-Gilroy-Regular leading-[185%]"
+              className="bg-[#ffffff] rounded-[32px] w-[84px] h-[45px]  text-sm font-medium border border-gray-200  hover:bg-gray-100   dark:text-white dark:hover:text-white  dark:focus:text-white border-none text-black opacity-[0.8] text-[18px] font-Gilroy-Regular leading-[185%] px-4 py-2"
             >
               Chair
             </button>

@@ -22,7 +22,7 @@ const HeroSection = () => {
         <div className="pt-[30px] text-center flex justify-center">
           <div className="text-center relative">
             <input
-              className="bg-opacity-15 placeholder-white text-white bg-white/[0.15] border-[0.861538px] border-white backdrop-blur-sm rounded-[42px] w-[344px] h-[56px] font-Gilroy-Regular text-[18px] leading-[150%]  opacity-[0.8] max-[370px]:w-[auto] "
+              className="bg-opacity-15 placeholder-white text-white bg-white/[0.15] border-[0.861538px] border-white/[0.6] backdrop-blur-sm rounded-[42px] w-[344px] h-[56px] font-Gilroy-Regular text-[18px] leading-[150%]  opacity-[0.8] max-[370px]:w-[auto] "
               type="text"
               placeholder="search furniture"
             />

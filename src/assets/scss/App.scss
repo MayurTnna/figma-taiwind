@@ -3,6 +3,30 @@
 @tailwind components;
 @tailwind utilities;
 
-li p{
-    margin: 0!important;
+li p {
+  margin: 0 !important;
 }
+
+//hero-section
+
+@layer components {
+  .title-main-text {
+    @apply text-black text-[42px] font-Gilroy-Bold leading-[49px];
+  }
+}
+
+//chooseus-section
+
+@layer components {
+  .choose-main-title {
+    @apply text-[24px] leading-[28px] text-black opacity-90 font-Gilroy-Bold;
+  }
+  .choose-description {
+    @apply font-Gilroy-Regular text-[16px] leading-[185%]  text-black opacity-80 pt-[20px] pr-[28px];
+  }
+  .choose-orange-text {
+    @apply font-Gilroy-Medium text-[14px] leading-[185%] text-orange;
+  }
+}
+
+//best-product-section

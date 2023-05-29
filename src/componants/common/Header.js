@@ -32,13 +32,13 @@ const Header = () => {
               <button
                 data-collapse-toggle="navbar-sticky"
                 type="button"
-                className="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg lg:hidden focus:outline-none focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600 border-none bg-whit"
+                className="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg lg:hidden focus:outline-none focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600 border-none bg-white"
                 aria-controls="navbar-sticky"
                 aria-expanded="false"
               >
                 <span className="sr-only">Open main menu</span>
                 <svg
-                  className="w-6 h-6"
+                  className="w-6 h-6 "
                   aria-hidden="true"
                   fill="currentColor"
                   viewBox="0 0 20 20"
@@ -68,7 +68,7 @@ const Header = () => {
                 <li className="">
                   <a
                     href="#dddedewd"
-                    className="block py-2 pl-3 pr-4 text-white rounded lg:hover:bg-transparent  max-[768px]:pl-0  dark:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700 font-Gilroy-Medium text-[18px] ml-[65px] max-[768px]:ml-0"
+                    className="block py-2 pl-3 pr-4 text-white rounded lg:hover:bg-transparent  max-[768px]:pl-0  dark:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700 font-Gilroy-Medium text-[18px] ml-[65px] max-[992px]:ml-0"
                   >
                     Shop
                   </a>
@@ -76,7 +76,7 @@ const Header = () => {
                 <li className="">
                   <a
                     href="#dddedewd"
-                    className="block py-2 pl-3 pr-4 text-white rounded lg:hover:bg-transparent  max-[768px]:pl-0  dark:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700 font-Gilroy-Medium text-[18px] ml-[65px] max-[768px]:ml-0"
+                    className="block py-2 pl-3 pr-4 text-white rounded lg:hover:bg-transparent  max-[768px]:pl-0  dark:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700 font-Gilroy-Medium text-[18px] ml-[65px] max-[992px]:ml-0"
                   >
                     About us
                   </a>
@@ -84,7 +84,7 @@ const Header = () => {
                 <li className="">
                   <a
                     href="#dddedewd"
-                    className="block py-2 pl-3 pr-4 text-white rounded lg:hover:bg-transparent  max-[768px]:pl-0  dark:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700 font-Gilroy-Medium text-[18px] ml-[65px] max-[768px]:ml-0"
+                    className="block py-2 pl-3 pr-4 text-white rounded lg:hover:bg-transparent  max-[768px]:pl-0  dark:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700 font-Gilroy-Medium text-[18px] ml-[65px] max-[992px]:ml-0"
                   >
                     Contact
                   </a>

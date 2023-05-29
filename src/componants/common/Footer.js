@@ -14,7 +14,7 @@ const Footer = () => {
                 <div className="text-[28px] leading-[33px] uppercase text-black font-Gilroy-Bold tracking-[0.01em]">
                   Panto
                 </div>
-                <div className="pt-[29px] pr-[152px] text-[15px] leading-[160%] uppercase text-black font-Gilroy-Medium tracking-[0.01em] max-[768px]:text-[11px] max-[768px]:pr-0 ">
+                <div className="pt-[29px] pr-[152px] text-[15px] leading-[160%] opacity-80 text-black font-Gilroy-Medium tracking-[0.01em] max-[768px]:text-[11px] max-[768px]:pr-0 ">
                   The advantage of hiring a workspace with us is that givees you
                   comfortable service and all-around facilities.
                 </div>
@@ -55,19 +55,19 @@ const Footer = () => {
                   <p>
                     <img src={facebook} alt="fb" />
                   </p>
-                  &nbsp; <p className="ml-2">Facebook</p>
+                  &nbsp; <p className="ml-3 not-italic leading-[160%] text-[15px] font-Gilroy-Medium text-black ">Facebook</p>
                 </div>
                 <div className="campaigns flex items-center pt-[16px] max-[768px]:justify-center ">
                   <p>
                     <img src={twitter} alt="fb" />
                   </p>
-                  &nbsp; <p>Twitter</p>
+                  &nbsp; <p className="ml-2 not-italic leading-[160%] text-[15px] font-Gilroy-Medium text-black ">Twitter</p>
                 </div>
                 <div className="binding flex items-center pt-[16px] max-[768px]:justify-center ">
                   <p>
                     <img src={instagram} alt="fb" />
                   </p>
-                  &nbsp; <p className="ml-1">instagram</p>
+                  &nbsp; <p className="ml-1 ml-2 not-italic leading-[160%] text-[15px] font-Gilroy-Medium text-black">instagram</p>
                 </div>
               </div>
             </div>

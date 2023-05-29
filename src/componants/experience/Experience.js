@@ -20,7 +20,7 @@ const Experience = () => {
                 Experiences
               </div>
             </div>
-            <div className=" text-black font-Gilroy-Bold  text-[42px] leading-[49px] pt-[20px] max-[992px]:container max-[992px]:mx-auto max-[992px]:text-center  pr-[284px] max-[992px]:pr-0  max-[475px]:text-[25px] max-[475px]:leading-[30px]">
+            <div className=" text-black font-Gilroy-Bold  text-[42px] leading-[49px] pt-[20px] max-[992px]:container max-[992px]:mx-auto max-[992px]:text-center  pr-[284px] max-[992px]:pr-0  max-[475px]:text-[32px] max-[475px]:leading-[35px]">
               we provide you the best experience
             </div>
             <div className="font-Gilroy-Regular text-[18px] leading-[185%] opacity-[0.8] pr-[141px] pt-[20px] max-[992px]:m-auto max-[992px]:text-center   max-[992px]:pl-[25px] max-[992px]:pr-[25px] max-[992px]:text-[15px]">
